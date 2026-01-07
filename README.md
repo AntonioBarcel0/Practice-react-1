@@ -1,17 +1,23 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # Practice-react-1
+
+Proyecto de práctica con **componentes**, props y hooks en React usando Vite.
+
+## Requisitos
+
+- Node.js y npm instalados (comprueba con `node -v` y `npm -v`).
+- Editor recomendado: Visual Studio Code.
+- Dependencia adicional: `react-hook-form` para el ejercicio 10.
+
+
+## Instalación
+
+1. Descarga o clona el proyecto en tu máquina.
+2. Abre una terminal en la carpeta raíz del proyecto.
+3. Instala las dependencias:
+
+   ``bash
+   npm install
+
+4. Instala react-hook-form (si no viene ya en package.json):
+
+npm install react-hook-form
